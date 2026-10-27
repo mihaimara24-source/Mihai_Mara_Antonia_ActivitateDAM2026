@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab4</string>
+    <string name="introduceti_numele">introduceti_numele</string>
+    <string name="apasa">apasa</string>
+    <string name="esti_student">esti_student?</string>
+
+    <string-array name="lista">
+
+    </string-array>
+</resources>

@@ -3,6 +3,9 @@ import android.util.Log;
 
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.CheckBox;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -53,5 +56,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d(TAG, "onDestroy() apelat");
+    }
+
+    public void CulegeDate(View view) {
+        EditText et=findViewById(R.id.nume_ET);
+        CheckBox cb=findViewById(R.id.eStudent_CB);
+
+        String nume=et.getText().toString();
+        Boolean eStudent=cb.isChecked();
     }
 }

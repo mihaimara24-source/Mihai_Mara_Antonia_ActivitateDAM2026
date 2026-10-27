@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">laborator2</string>
+    <string name="introduceti_numele">introduceti numele</string>
+    <string name="apasa">apasa</string>
 </resources>
